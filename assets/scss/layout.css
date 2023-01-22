@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  background-color: #f00ff0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.main .box {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  border-radius: 10px;
+  transition: all 0.5s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.main .box1 {
+  background-color: blue;
+}
+.main .box2 {
+  background-color: yellow;
+}/*# sourceMappingURL=layout.css.map */
